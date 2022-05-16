@@ -1,25 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Mobileos , MobileManufact } from './components/details';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     <div className='App'>   
+      <h1>Mobile Operating System</h1>
+        <Mobileos></Mobileos>
+      <h1>Mobile Manufacturers</h1>
+        <MobileManufact></MobileManufact>
+      </div>
+ );
 }
 
 export default App;
